@@ -70,7 +70,10 @@
 - Preferred language: Python (not MATLAB).
 - This folder is inside the user's Obsidian vault (`D:\Engineering`), so these
   markdown files are vault notes. READMEs use unique names (`README-<project>.md`)
-  for that reason; keep the convention. Renaming or moving files here does not
+  for that reason; keep the convention. Exception: the root `README.md` is the GitHub
+  front page (repo github.com/Guglielmenzo/ism-sdr-board); `README-ism-sdr-board.md`
+  is a short vault stub pointing to it. Folder READMEs under `hardware/` are GitHub indexes.
+- Commits to the GitHub repo carry no Claude co-author or session trailers (user's request). Renaming or moving files here does not
   update vault links: fix references in `RF Roadmap.md`, `Projects.md`,
   `SDR System Architecture.md`, `Software Defined Radio.md` and `Sat Dump Build.md`.
 - `data/` is gitignored — don't assume recordings are tracked in git.
