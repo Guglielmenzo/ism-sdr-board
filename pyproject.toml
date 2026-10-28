@@ -1,0 +1,19 @@
+[project]
+name = "ism-sdr-board"
+version = "0.1.0"
+description = "Python tools for the ISM-band SDR project: IQ capture and signal analysis"
+requires-python = ">=3.10"
+dependencies = [
+    "numpy",
+    "scipy",
+    "matplotlib",
+    "pyrtlsdr",
+    "Pillow",
+]
+
+[project.optional-dependencies]
+notebooks = ["jupyter", "ipykernel"]
+
+[build-system]
+requires = ["setuptools>=68"]
+build-backend = "setuptools.build_meta"

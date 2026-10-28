@@ -1,0 +1,25 @@
+# IQ recordings (large)
+data/
+
+# Python
+.venv/
+__pycache__/
+*.egg-info/
+.ipynb_checkpoints/
+
+# Altium Designer generated files
+History/
+Project Logs for */
+Project Outputs for */
+__Previews/
+*.PrjPcbStructure
+*.SchDocPreview
+*.PcbDocPreview
+*.LOCK
+~$*
+
+# Obsidian and OS
+.obsidian/
+.DS_Store
+Thumbs.db
+desktop.ini
