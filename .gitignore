@@ -1,25 +1,33 @@
-# IQ recordings (large)
-data/
-
 # Python
-.venv/
 __pycache__/
+*.py[cod]
 *.egg-info/
+.venv/
+venv/
+build/
+dist/
+
+# Jupyter
 .ipynb_checkpoints/
 
-# Altium Designer generated files
-History/
-Project Logs for */
-Project Outputs for */
-__Previews/
-*.PrjPcbStructure
-*.SchDocPreview
-*.PcbDocPreview
-*.LOCK
-~$*
+# SDR / IQ recordings and decoded imagery (large, regenerable)
+data/
+*.wav
+*.iq
+*.cu8
+*.cs8
+*.cfile
+*.raw
 
-# Obsidian and OS
-.obsidian/
+# OS / editor cruft
 .DS_Store
 Thumbs.db
-desktop.ini
+.vscode/
+.idea/
+
+# KiCad (backups, local UI state, caches, lock and autosave files)
+*-backups/
+*.kicad_prl
+fp-info-cache
+*.lck
+_autosave-*
