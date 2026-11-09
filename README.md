@@ -7,4 +7,4 @@ ADL5380 I/Q demodulator driven by an ADF4351 LO, and the I and Q outputs go to a
 over USB.
 
 The full write-up (components, block diagram, and the signal chain with gain and
-noise figure) is in [README.pdf](README.pdf), built from [README.tex](README.tex).
+noise figure) is in [README.pdf](README.pdf).
