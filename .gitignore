@@ -34,3 +34,6 @@ _autosave-*
 
 README.tex
 CLUADE.md
+
+# Altium project: has its own git repo that pushes to Altium 365 (Save to Server)
+ISM_SDR_PCB/
