@@ -8,3 +8,5 @@ over USB.
 
 The full write-up (components, block diagram, and the signal chain with gain and
 noise figure) is in [README.pdf](README.pdf).
+
+Schematic and PCB files can be found in [PCB_Directory](ISM_SDR_PC)
