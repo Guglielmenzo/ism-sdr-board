@@ -33,7 +33,13 @@ fp-info-cache
 _autosave-*
 
 README.tex
-CLUADE.md
+CLAUDE.md
+pyproject.toml
+.gitignore
 
-# Altium project: has its own git repo that pushes to Altium 365 (Save to Server)
-ISM_SDR_PCB/
+ISM_SDR_PCB/History/
+ISM_SDR_PCB/ISM_SDR.SCHLIB
+ISM_SDR_PCB/ISM_SDR_PCB.PrjPcbStructure
+ISM_SDR_PCB/Project Logs for ISM_SDR/
+ISM_SDR_PCB/SAWFilter.SchLib
+ISM_SDR_PCB/__Previews/
