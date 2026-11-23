@@ -10,4 +10,4 @@ The full write-up (components, block diagram, and the signal chain) is in [READM
 
 Schematic and PCB files can be found in [ISM_SDR_PCB](ISM_SDR_PCB)
 
-Project revisions and old schematic analysis & notes can be found in [PCB_History](Documentation\PCB_History)
+Project revisions and old schematic analysis & notes can be found in [PCB_History](Documentation/PCB_History)
